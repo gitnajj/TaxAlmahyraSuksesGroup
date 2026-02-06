@@ -1,0 +1,17 @@
+{
+    "name": "layanan-pajak/invoice-system",
+    "description": "Sistem Layanan Pajak dengan fitur Invoice",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "tecnickcom/tcpdf": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
